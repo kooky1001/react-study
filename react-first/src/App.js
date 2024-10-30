@@ -10,7 +10,7 @@ function App() {
         <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path="/basic" element={<Basic/>}/>
-            {/*<Route path="/todolist" element={<ToDoList/>}/>*/}
+            <Route path="/todolist" element={<ToDoList/>}/>
             {/*<Route path="/coinlist" element={<CoinList/>}/>*/}
         </Routes>
       </BrowserRouter>
